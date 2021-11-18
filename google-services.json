@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328849998864",
+    "project_id": "coursetalk-1117d",
+    "storage_bucket": "coursetalk-1117d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328849998864:android:3217104af33e1ed4727695",
+        "android_client_info": {
+          "package_name": "com.example.chatapp4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328849998864-ag88jhabl4l253nl51q2m3i8s8qoolhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbm_QV_Yoi5BAuZLMGqayoncXTHGvVpmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328849998864-ag88jhabl4l253nl51q2m3i8s8qoolhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
