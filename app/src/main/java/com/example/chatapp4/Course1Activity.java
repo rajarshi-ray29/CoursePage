@@ -70,7 +70,7 @@ public class Course1Activity extends AppCompatActivity {
                     // Read the input field and push a new instance
                     // of ChatMessage to the Firebase database
                     FirebaseDatabase.getInstance()
-                            .getReference()
+                            .getReference("Public policy")
                             .push()
                             .setValue(new ChatMessage(input.getText().toString(),
                                     FirebaseAuth.getInstance()
@@ -140,7 +140,7 @@ public class Course1Activity extends AppCompatActivity {
         ListView listOfMessages = (ListView)findViewById(R.id.list_of_messages);
 
         adapter = new FirebaseListAdapter<ChatMessage>(this, ChatMessage.class,
-                R.layout.message, FirebaseDatabase.getInstance().getReference()) {
+                R.layout.message, FirebaseDatabase.getInstance().getReference("Public policy")) {
             @Override
             protected void populateView(View v, ChatMessage model, int position) {
                 // Get references to the views of message.xml
