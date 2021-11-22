@@ -25,7 +25,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Course1Activity extends AppCompatActivity {
+public class Course2Activity extends AppCompatActivity {   // change here
 
     private static final int RC_SIGN_IN = 1;
     private FirebaseAnalytics mFirebaseAnalytics;
@@ -37,7 +37,7 @@ public class Course1Activity extends AppCompatActivity {
         // Obtain the FirebaseAnalytics instance.
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_course2); // change here
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
@@ -93,7 +93,7 @@ public class Course1Activity extends AppCompatActivity {
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
-                            Toast.makeText(Course1Activity.this,
+                            Toast.makeText(Course2Activity.this, // change here
                                     "You have been signed out.",
                                     Toast.LENGTH_LONG)
                                     .show();
