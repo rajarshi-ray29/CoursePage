@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatApp4">
         <activity
-            android:name=".LogInActivity"
-            android:exported="false" />
+            android:name=".Course2Activity"
+            android:exported="true" />
         <activity
-            android:name=".Course1Activity"
+            android:name=".CourseList"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Course1Activity"
+            android:exported="true"/>
     </application>
 
 </manifest>

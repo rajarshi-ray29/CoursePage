@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ChatApp4</string>
+    <string name="app_name">CourseTalk</string>
+    <string name="applied_philosophy">Applied philosophy</string>
+    <string name="public_policy">Public policy</string>
+    <string name="modern_fiction">Modern fiction</string>
+    <string name="eco_criticism">Eco criticism</string>
+    <string name="creative_writing">Creative writing</string>
+    <string name="course_list">Course List</string>
 </resources>
